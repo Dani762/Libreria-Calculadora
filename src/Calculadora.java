@@ -7,7 +7,7 @@ public class Calculadora {
 
 
         /** Probamos que el usuario introduzca datos correctos (números), para poder operar con ellos**/
-        try{ System.out.println("Indica qué operación quieres realiza:\n 1.- Suma\n 2.- Resta\n 3.- Multiplicación\n 4.- División");
+        try{ System.out.println("Indica qué operación quieres realiza:\n 1.- Suma\n 2.- Resta\n 3.- Multiplicación\n 4.- División\n5.- Raíz n-ésima");
             final int operacion = sc.nextInt();
             System.out.println("Dame el primer número");
             final double  n1 = sc.nextInt();
